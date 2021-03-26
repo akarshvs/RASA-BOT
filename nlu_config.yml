@@ -1,0 +1,17 @@
+language: "en"
+
+pipeline:
+- name: "tokenizer_whitespace"
+- name: "intent_entity_featurizer_regex"
+- name: "ner_crf"
+- name: "ner_synonyms"
+- name: "intent_featurizer_count_vectors"
+  OOV_token: oov
+  token_pattern: (?u)\b\w+\b
+  max_ngram: 2
+##- name: "my_package.UniversalSentenceEncoderFeaturizer"
+- name: "intent_classifier_tensorflow_embedding"
+  embed_dim: 50
+  epochs: 150
+  intent_tokenization_flag: false
+  

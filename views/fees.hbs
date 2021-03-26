@@ -1,0 +1,36 @@
+<div class="row">
+   <div class="col s12 m12">
+     <div class="card white darken-1">
+       <div class="card-content black-text">
+         <span class="card-title">Fees Details</span>
+         <table class="striped">
+           <tr>
+             <th> Fees Type</th>
+
+             <th>Graduate</th>
+             <th>Department</th>
+              <th>Department Type</th>
+              <th>Semester</th>
+              <th>Amount</th>
+           </tr>
+           {{#each data}}
+            <tr class="statictr1">
+              <td style="display:none" class="feeid">{{this._id}}</td>
+              <td id="efees"> {{this.fees_type}}</td>
+              <td id="eid"> {{this.graduate}}</td>
+              <td id="pos"> {{this.department}}</td>
+              <td id="dep"> {{this.department_type}}</td>
+              <td id="con"> {{this.semester}}</td>
+              <td id="feesEdit"> <input type="number" class ="feein" name="amount" value= "{{this.fees_amount}}"></td>
+              <td > <input class="feesup" type="submit" value="update"></td>
+            </tr>
+            {{/each}}
+         </table>
+       </div>
+       <div class="card-action">
+         <a href="#">load-more >></a>
+
+       </div>
+     </div>
+   </div>
+ </div>

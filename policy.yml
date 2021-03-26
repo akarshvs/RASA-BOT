@@ -1,0 +1,10 @@
+policies:
+  - name: KerasPolicy
+    epochs: 25
+    max_history: 6
+  - name: AugmentedMemoizationPolicy
+    max_history: 6
+  - name: FallbackPolicy
+    nlu_threshold: 0.75
+    core_threshold: 0.3
+  - name: FormPolicy

@@ -1,0 +1,170 @@
+body,html {
+  margin:0;
+  padding:0;
+
+}
+/* navbar begins */
+.navbar{
+  width:100%;
+  height:100px;
+  background-color:rgba(245,240,240);
+  padding: 20px;
+  padding-right: 0;
+  padding-left: 0;
+}
+.logo {
+  float:left;
+  display: inline-block;
+  width:300px;
+  border-right: .5px solid rgba(0,0,0,0.8);
+}
+.logo img{
+  position: absolute;
+  top: 19px;
+  margin-left: 35px;
+}
+.logo h2
+{
+  float:right;
+  width:200px;
+  font-size: 25px;
+  margin: 5px;
+}
+.profile
+{
+  height: 100%;
+  width:150px;
+
+  float:right;
+}
+.profile img
+{
+  position: absolute;
+  top:30px;
+  left:auto;
+  height:60px;
+  width:60px;
+}
+.profile-data
+{
+  position:absolute;
+  top:100px;
+  width:170px;
+  height:50px;
+  background-color: rgba(250,120,80,0.9);
+  border-radius: 6px;
+  padding: 1px;
+  display: none;
+  z-index: 10;
+}
+.profile-data ul li p
+{
+  display: inline-block;
+  margin-left: 10px;
+}
+.profile-data ul li a
+{
+color:#fff;
+}
+.profile-data ul li i
+{
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 10px;
+  top:10px;
+}
+.profile-data ul
+{
+margin: 0;
+  list-style-type: none;
+  color: white;
+  margin-right: 20px;
+}
+/* navbar ends */
+
+/* sidebar begins */
+.sidebar{
+  width:22%;
+  margin-top:1px;
+  background-color: #000015;
+  color:#fff;
+  padding: 0;
+  display: inline-block;
+
+  height: 100vh;
+}
+.s-item
+{
+width: 280px;
+  padding:10px;
+  height:auto;
+ margin-left: 20px;
+ margin-top: 10px;
+ letter-spacing: 1.5px;
+
+}
+.s-item h2{
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 20px;
+  color: SkyBlue ;
+}
+.s-item a:active  {
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 20px;
+  color: white;
+}
+
+.s-item2 ul
+{
+  display: none;
+}
+.s-item3 ul
+{
+  display: none;
+}
+
+/* sidebar ends */
+.maincontain{
+  position: relative;
+  width:100%;
+    display: inline-block;
+}
+/* container begins*/
+.container1{
+  background-color: rgba(255,245,245,0.9);
+  float: right;
+  width:78%;
+  display: inline;
+  display: inline-block;
+  height: 100vh;
+  margin-left: 0;
+  padding:40px;
+}
+
+table{
+  margin: 20px;
+}
+.addstudent{
+  width:25px;
+  height:35px;
+  opacity: 0.8;
+}
+.addstudent:hover{
+  width:30px;
+  height:40px;
+  opacity: 1;
+}
+.addForm
+{
+  position: absolute;
+  left:28%;
+  top:-12px;
+  display: none;
+  width: 900px;
+}
+.addForm input{
+  margin-top: 40px;
+}
+/* conatainer ends */

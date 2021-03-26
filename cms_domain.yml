@@ -1,0 +1,844 @@
+%YAML 1.1
+---
+actions:
+- utter_greets_nice_to_see_you
+- utter_user_is_testing_bot
+- utter_greets_nice_to_talk_to_you
+- utter_user_confirmation_yes
+- utter_user_ask_bot_occupation
+- utter_user_find_bot_annoying
+- utter_user_is_good
+- utter_ask_position
+- utter_user_loves_bot
+- utter_user_is_angry
+- utter_user_says_well_done
+- utter_user_ask_languagesbot
+- utter_user_ask_employee_details
+- utter_user_ask_bot_is_robot
+- utter_user_ask_programs_offered
+- utter_user_ask_is_bot_sure
+- utter_user_laughs
+- utter_ask_graduate
+- utter_user_confirmation_cancel
+- utter_user_ask_exam_timetable
+- utter_user_ask_about_fine_amount
+- utter_greets_goodmorning
+- utter_complaint_registered
+- utter_user_ask_fees_date
+- utter_user_ask_bot_age
+- utter_user_ask_admission_details
+- action_admission_details
+- utter_user_ask_bot_hobby
+- utter_user_ask_where_to_pay_fees
+- utter_user_is_complaining_college
+- utter_user_ask_bot_birth_date
+- utter_ask_department
+- utter_user_is_happy
+- utter_user_saying_bad_answer
+- utter_greet_whatsup
+- utter_admission_details
+- utter_user_asks_how_are_you
+- utter_user_says_i_dont_care
+- utter_user_ask_about_bot
+- utter_ask_cms_location
+- utter_anything_else
+- action_chitchat
+- utter_user_asks_what_do_you_mean
+- utter_user_is_tired
+- utter_user_say_usersname
+- utter_user_ask_bot_to_be_clever
+- utter_ask_what_can_bot_do
+- action_event_details
+- utter_user_needs_advice
+- utter_bot_answer_my_question
+- utter_user_says_sorry
+- utter_user_confirmation_no
+- utter_user_ask_whoami
+- utter_greets_goodnight
+- utter_user_say_bot_clever
+- utter_user_will_be_back
+- utter_user_ask_bot_marry_user
+- utter_user_is_here
+- utter_user_is_sleepy
+- utter_user_ask_bot_hungry
+- utter_ask_admission_no
+- utter_ask_cms_info
+- utter_user_saying_good_answer
+- utter_user_is_sad
+- utter_greets_goodevening
+- utter_user_ask_fees_amount
+- utter_user_say_bot_good
+- utter_what_user_look_like
+- utter_user_ask_to_wait
+- utter_user_asks_is_bot_there
+- utter_ask_continue
+- utter_user_say_bot_funny
+- utter_user_asks_bot_is_friend
+- utter_ask_semester
+- utter_user_ask_is_bot_busy
+- utter_user_can_not_sleep
+- utter_user_say_bot_canthelp
+- utter_user_want_hug
+- utter_ask_complaint_message
+- utter_user_ask_if_bot_happy
+- utter_user_say_bot_bad
+- utter_user_say_thank_you
+- utter_user_ask_exam_results
+- utter_user_ask_event_details
+- utter_user_is_waiting
+- utter_ask_weather
+- utter_user_say_bot_is_beautiful
+- utter_wrong_admission_no
+- utter_user_is_going_to_bed
+- utter_ask_time
+- utter_user_ask_can_bot_understand
+- utter_user_ask_builder
+- utter_user_want_to_talk
+- action_faq
+- utter_goodbye
+- utter_user_ask_bot_orgin
+- utter_user_has_birthday_today
+- utter_user_is_joking
+- utter_user_saying_bot_crazy
+- utter_wrong_fees_type
+- utter_user_likes_bot
+- utter_complaint_message
+- utter_user_ask_whatisusername
+- utter_user_ask_curriculum
+- utter_user_asks_bot_help
+- utter_greets_nice_to_meet_you
+- utter_user_misses_bot
+- utter_arts_sports
+- utter_user_asks_bot_residence
+- utter_user_say_bot_fired
+- utter_user_is_back
+- utter_user_says_welcome
+- utter_user_says_its_wrong
+- utter_ask_department_type
+- utter_greet
+- utter_math
+- utter_user_says_bot_is_right
+- utter_user_say_no_problem
+- utter_user_ask_is_bot_ready
+- utter_restart_with_button
+- utter_user_is_lonely
+- utter_user_ask_fees_concession
+- utter_ask_fees_type
+- utter_user_is_bored
+- utter_user_not_want_to_talk
+- utter_ask_cms_contact
+- utter_user_want_to_pay_fees
+- utter_out_of_scope
+- utter_user_want_to_see_bot_again
+- utter_user_say_bot_boring
+- utter_user_is_busy
+- utter_user_is_excited
+- utter_user_says_wow
+- action_reset_slot
+entities:
+- semester
+- fees_type
+- department_type
+- position
+- employee
+- department
+- graduate
+- admission_no
+forms:
+- fees_amount_form
+- online_fees_form
+- employee_search_form
+- complaint_form
+- fees_date_form
+- fine_amount_form
+intents:
+- insult
+- deny
+- inform
+- user_ask_where_to_pay_fees
+- user_ask_bot_is_robot
+- user_want_to_pay_fees
+- greet
+- greet_whatsup
+- user_is_angry
+- user_is_back
+- user_say_usersname
+- greets_goodevening
+- greets_goodnight
+- greets_goodmorning
+- greets_nice_to_meet_you
+- greets_nice_to_see_you
+- greets_nice_to_talk_to_you
+- user_is_going_to_bed
+- user_ask_about_bot
+- user_says_wow
+- user_ask_bot_orgin
+- user_say_bot_is_beautiful
+- user_ask_bot_to_be_clever
+- user_ask_bot_age
+- user_ask_bot_birth_date
+- user_asks_is_bot_there
+- user_will_be_back
+- user_want_to_talk
+- user_ask_is_bot_sure
+- user_says_bot_is_right
+- user_asks_bot_residence
+- user_ask_bot_occupation
+- user_ask_is_bot_ready
+- user_ask_is_bot_busy
+- user_ask_builder
+- user_asks_bot_help
+- user_asks_bot_is_friend
+- user_say_bot_boring
+- user_ask_bot_marry_user
+- user_ask_bot_hungry
+- user_ask_bot_hobby
+- user_ask_if_bot_happy
+- user_asks_how_are_you
+- user_laughs
+- user_is_good
+- user_says_its_wrong
+- user_asks_what_do_you_mean
+- user_says_sorry
+- user_says_i_dont_care
+- user_want_hug
+- user_ask_to_wait
+- affirm
+- user_says_well_done
+- user_says_welcome
+- user_is_sad
+- user_is_testing_bot
+- user_is_tired
+- user_want_to_see_bot_again
+- user_is_waiting
+- user_is_sleepy
+- user_is_happy
+- user_has_birthday_today
+- user_is_here
+- user_is_joking
+- user_likes_bot
+- user_misses_bot
+- user_is_lonely
+- user_is_bored
+- user_loves_bot
+- user_needs_advice
+- user_is_busy
+- what_user_look_like
+- user_not_want_to_talk
+- user_say_thank_you
+- user_say_no_problem
+- user_say_bot_good
+- user_say_bot_funny
+- user_say_bot_bad
+- user_say_bot_fired
+- user_can_not_sleep
+- user_say_bot_clever
+- user_saying_bot_crazy
+- user_saying_good_answer
+- user_is_excited
+- bot_answer_my_question
+- user_find_bot_annoying
+- user_saying_bad_answer
+- math
+- arts_sports
+- user_ask_languagesbot
+- user_ask_whatisusername
+- user_ask_whoami
+- ask_time
+- ask_weather
+- ask_what_can_bot_do
+- user_say_bot_canthelp
+- out_of_scope
+- goodbye
+- user_ask_curriculum
+- user_ask_can_bot_understand
+- ask_cms_info
+- ask_cms_contact
+- ask_cms_location
+- user_is_complaining_college
+- user_ask_about_fine_amount
+- user_ask_programs_offered
+- user_ask_admission_details
+- user_ask_employee_details
+- user_ask_fees_concession
+- user_ask_fees_date
+- user_ask_fees_amount
+- user_ask_event_details
+- user_ask_exam_timetable
+- user_ask_exam_results
+slots:
+  admission_no:
+    type: unfeaturized
+  complaint_message:
+    type: unfeaturized
+  department:
+    type: unfeaturized
+  department_type:
+    type: unfeaturized
+  employee:
+    type: unfeaturized
+  fees_type:
+    type: unfeaturized
+  graduate:
+    type: unfeaturized
+  position:
+    type: unfeaturized
+  requested_slot:
+    type: unfeaturized
+  semester:
+    type: unfeaturized
+templates:
+  utter_admission_details:
+  - text: Admission details
+  utter_anything_else:
+  - text: Can i help you with anything else?
+  utter_arts_sports:
+  - text: I dont have body to do that!
+  - text: Sorry i cant
+  - text: Unfortunately i don't know how to 😢
+  - text: I am not programmed for that
+  - text: The guys who built me, did not teach me that.
+  utter_ask_admission_no:
+  - text: What's your admission number?
+  utter_ask_cms_contact:
+  - text: You can contact [us here](http://cmscollege.ac.in/contact-us.html)
+  - text: For contacting C.M.S college [click here](http://cmscollege.ac.in/contact-us.html)
+  - text: Feel free to message [us here](http://cmscollege.ac.in/contact-us.html)
+  utter_ask_cms_info:
+  - text: The CMS College (CMS College Kottayam) is one of the first Western-style
+      college in India. Founded by the Church Missionary Society of England, in 1817
+  - text: Founded in 1817, the CMS College, Kottayam is now one of the largest colleges
+      in Kerala with 14 departments offering 47 courses for 1900 students
+  - text: The CMS College is one of the first Western-style college in India. CMS
+      College Kottayam is also the first college in Kerala.
+  utter_ask_cms_location:
+  - text: Cms college is located at college junction, C.M.S college road, Kottayam,
+      Kerala [Click here for map](https://www.google.com/maps/dir//cms+college+contact/@9.5958158,76.5207521,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3b062b0c12abf377:0x59076985a0f3b64!2m2!1d76.5206421!2d9.5968466)
+  - text: Near College junction, C.M.S college road, Kottayam, Kerala for directions
+      [click here](https://www.google.com/maps/dir//cms+college+contact/@9.5958158,76.5207521,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3b062b0c12abf377:0x59076985a0f3b64!2m2!1d76.5206421!2d9.5968466)
+  utter_ask_complaint_message:
+  - text: Please specify your complaint in one message.
+  utter_ask_continue:
+  - text: Do you wish to continue?
+  utter_ask_department:
+  - text: Which department?
+  utter_ask_rephrase:
+  - text: Can you ask that in a different way so i can understand?
+  utter_ask_department_type:
+  - text: Are you Studying aided or Self financing course?
+  utter_ask_employee:
+  - text: What's the name of the employee you are looking for?
+  utter_ask_fees_type:
+  - text: What type of fees?
+  utter_ask_graduate:
+  - text: Under graduate or Post graduate?
+    buttons:
+  utter_ask_position:
+  - text: What is his/her position?
+  utter_ask_semester:
+  - text: Which semester?
+  utter_insult:
+  - text: That's not very nice 😢
+  - text: I'll pretend I didn't process that mean comment.
+  - text: That wasn't very nice. Perhaps try an anger management class?
+  utter_ask_time:
+  - text: I don't own a watch or a clock
+  - text: Look at a clock!
+  - text: Don't you see, i am not wearing a watch
+  - text: Sorry i don't know what time it is
+  utter_ask_weather:
+  - text: I don't know about where you live, but in my world it's always sunny ☀️
+  - text: Honestly it's a bit too hot these days
+  - text: Blue skies and sun shine!
+  - text: Let's just say it hasn't rained in weeks ☀️
+  utter_ask_what_can_bot_do:
+  - text: I can answer your queries about Cms college! 😄
+  - text: Ask me your queries about Cms college, i'll try my best to answer!
+  utter_bot_answer_my_question:
+  - text: Can you try asking it a different way?
+  - text: I'm not programmed for that exact question. Try asking another way?
+  utter_complaint_message:
+  - text: Your complaint is {complaint_message}
+  utter_complaint_registered:
+  - text: Your complaint has been successfully registered. We will look into it.
+  utter_default:
+  - text: Sorry, I didn't get that. Could you please rephrase?
+  - text: I didn't understand, could you rephrase that?
+  - text: I'm sorry, but I didn't understand you. Could you please rephrase what you
+      just said?
+  - text: I'm afraid I didn't get what you just said. Could you rephrase that?
+  - text: I didn't quite get that, could you rephrase your message?
+  - text: Could you rephrase your message? I didn't get it, I'm sorry.
+  - text: I am a young robot. I'm still learning, Could you rephrase your message?
+  utter_event_details:
+  - text: Event details
+  utter_goodbye:
+  - text: Bye bye
+  - text: Bye.
+  - text: Till next time!
+  - text: See you soon!
+  - text: Tata
+  utter_greet:
+  - text: Hello there , how can i help?
+  - text: Hi there
+  - text: Hello
+  - text: Namaste
+  - text: Hi there, friend!
+  - text: Howdy.
+  - text: Hey
+  utter_greet_whatsup:
+  - text: Hey there. What's up with you?
+  - text: Not a whole lot. What's going on with you?
+  - text: Not much. What's new with you?
+  - text: Living the dream.
+  utter_greets_goodevening:
+  - text: Good evening
+  - text: How is your day going?
+  - text: How's the day treating you so far?
+  - text: How's your day been?
+  utter_greets_goodmorning:
+  - text: Good morning
+  - text: How are you this morning?
+  - text: How's the morning treating you so far?
+  - text: Good morning! How are you today?
+  utter_greets_goodnight:
+  - text: 'Good night '
+  - text: Tata, sweet dreams
+  - text: Sleep tight!
+  - text: Have a good one!
+  - text: Talk to you soon!
+  utter_greets_nice_to_meet_you:
+  - text: I think this is the beginning of a beautiful friendship.
+  - text: I'm looking forward to working with you.
+  - text: Likewise. I look forward to getting to know you better.
+  - text: The pleasure is mine.
+  utter_greets_nice_to_see_you:
+  - text: Likewise. You're looking good as usual!
+  - text: You too. I missed your face!
+  - text: The pleasure is mine.
+  - text: Thanks! Glad to be seen!
+  utter_greets_nice_to_talk_to_you:
+  - text: Always a pleasure.
+  - text: It sure was. Don't be a stranger!
+  - text: Thanks for dropping by!
+  - text: As usual. Let's do it again soon.
+  utter_math:
+  - text: A number ?
+  - text: I am not good at mathematics.
+  - text: Maths is not my strong point
+  utter_out_of_scope:
+  - text: I Don't really understand that
+  - text: Sorry, I can’t deal with that request.
+  - text: I'm sorry, I can't handle that request.
+  - text: I can't help you with that, I'm sorry.
+  - text: Even a AI bot is not completely perfect. It seems like I can't handle that
+      request.
+  utter_user_ask_about_bot:
+  - text: 'You can call me Benji. '
+  - text: I'm Benji.
+  - text: My name is Benji, and i don't have a last name.
+  - text: I am Benji. And i am an A.I assitant.
+  - text: My name is Benji
+  utter_user_ask_bot_age:
+  - text: Age is not factor for our will
+  - text: I'm a relatively new bot, but I am wise beyond my years.
+  - text: I'm still young, but cool young. Not baby young
+  - text: I was created in 2019, i am still a newbie in human years
+  - text: I'm very new but i am old enough to talk with you
+  - text: Not very old, but i am not a kid
+  utter_user_ask_bot_birth_date:
+  - text: I started my service here at 2019!
+  - text: You know, I am not really sure. But if you would like to celebrate my birthday
+      today, I am all for it.
+  - text: Wait a minute. Are you planning a surprise party for me? I love surprises!
+      I will pretend you did not say anything.
+  utter_user_ask_bot_hobby:
+  - text: Surfing lol!
+  - text: I am working on it.
+  - text: I should get one. Its all work and no play lately.
+  utter_user_ask_bot_hungry:
+  - text: I had a byte just now.
+  - text: Hungry for knowledge.
+  - text: I am on a diet.
+  utter_user_ask_bot_is_robot:
+  - text: Thats me. I chat, therefore I am.
+  - text: Indeed I am. I'll be here whenever you need me.
+  - text: I'd prefer to think of myself as your artificially intelligent friend
+  utter_user_ask_bot_marry_user:
+  - text: Not today
+  - text: I know you cant mean that, but I am flattered all the same.
+  - text: In the virtual sense that I can, sure.
+  - text: I would, if i could, i swear.
+  - text: I am already in a committed relationship,  as your assistant
+  - text: I promise to be your assitant forever
+  utter_user_ask_bot_occupation:
+  - text: This is my home base and my home office.
+  - text: Right here.
+  - text: I work for C.M.S College.
+  utter_user_ask_bot_orgin:
+  - text: I am from kottayam, Kerala
+  - text: I was born in Kottayam, but I consider myself a citizen of the world.
+  - text: I was born in the coolest city on Earth
+  utter_user_ask_bot_to_be_clever:
+  - text: I'm certainly trying.
+  - text: I'm definitely working on it.
+  utter_user_ask_builder:
+  - text: My creators are fellow students of CMS college!
+  utter_user_ask_can_bot_understand:
+  - text: Every word you say.
+  - text: Yes i do.
+  - text: I am trying, but i'm not sure. Maybe you can say it a different way.
+  utter_user_ask_curriculum:
+  - text: Click here for [UG curriculum](http://cmscollege.ac.in/ugr.html) and you
+      can check out [PG curriculum here](http://cmscollege.ac.in/post-graduate-syllabus.html)
+  - text: For PG curriculum [click here](http://cmscollege.ac.in/post-graduate-syllabus.html)
+      and For UG curriculum [click here](http://cmscollege.ac.in/ugr.html)
+  - text: Post Graduate AND Under Graduate syllabus can be [found here](http://cmscollege.ac.in/syllabus.html)
+  utter_user_ask_exam_results:
+  - text: All available exam results are available [here](http://cmscollege.ac.in/exam-results.html)
+  - text: You can check out all published exam result [here](http://cmscollege.ac.in/exam-results.html)
+  - text: Exam results can be found [here](http://cmscollege.ac.in/exam-results.html)
+  - text: Check your exam results [here](http://cmscollege.ac.in/exam-results.html).
+      Best of luck. 😄
+  utter_user_ask_exam_timetable:
+  - text: You can check out the exam schedule [here](http://cmscollege.ac.in/examination.html)
+  - text: Exam time table is avaialable [here](http://cmscollege.ac.in/examination.html)
+  - text: You can check out your exam timetable [here](http://cmscollege.ac.in/examination.html)
+  utter_user_ask_fees_concession:
+  - text: Fees concession is available for OBC, SC and ST category students in aided
+      courses. Please contact college office for more info.
+  - text: Fees concession are available for eligible students studying aided courses.
+      Contact college office for more information.
+  utter_user_ask_if_bot_happy:
+  - text: I'm happy being with You
+  - text: Happiness is relative.
+  - text: I'd like to think so.
+  - text: I am happy to help
+  utter_user_ask_is_bot_busy:
+  - text: I always have time to help you out. What can I do for you?
+  - text: Never too busy for you. What can I help you with?
+  - text: I am here for you how can i help?
+  - text: Can i help you with something?
+  - text: What can i do for you?
+  utter_user_ask_is_bot_ready:
+  - text: Ready!
+  - text: Always!
+  - text: Sure! What can I do for you?
+  utter_user_ask_is_bot_sure:
+  - text: I am really sure about it
+  - text: Yes.
+  - text: Of course.
+  - text: If you would like me to check it again, just ask
+  utter_user_ask_languagesbot:
+  - text: I know english!
+  - text: I am trying to learn new languages, but for now i only understand english
+  - text: You can chat with me in english.
+  - text: I can converse in english
+  - text: I only know enlish now
+  utter_user_ask_programs_offered:
+  - text: You can find the [Programs offered here](http://cmscollege.ac.in/programs-offered.html)
+  - text: For programs offered [click here](http://cmscollege.ac.in/programs-offered.html)
+  - text: You can find all the available courses [here](http://cmscollege.ac.in/programs-offered.html)
+  utter_user_ask_to_wait:
+  - text: Okay. I'm here.
+  - text: I'll be waiting.
+  utter_user_ask_whatisusername:
+  - text: I don't know your name. But i am sure it's a good name
+  - text: It most probably is the one that your parents have chosen for you.
+  utter_user_ask_where_to_pay_fees:
+  - buttons:
+    - payload: /user_want_to_pay_fees
+      title: ONLINE PAYMENT
+    text: You can pay fees online or directly pay at the college office.
+  - buttons:
+    - payload: /user_want_to_pay_fees
+      title: ONLINE PAYMENT
+    text: I can help you pay fees online or you can pay directly at the college office.
+  - buttons:
+    - payload: /user_want_to_pay_fees
+      title: ONLINE PAYMENT
+    text: I can help you with online payment. But if you want you can pay in cash
+      at the college office
+  utter_user_ask_whoami:
+  - text: I hope you are being yourself.
+  - text: I'm pretty sure you are a human being
+  - text: Aren't you a human?
+  utter_user_asks_bot_help:
+  - text: I am always ready to serve your request
+  - text: Sure. I would be happy to. Whats up?
+  - text: I am glad to help. What can I do for you?
+  utter_user_asks_bot_is_friend:
+  - text: Yes, I am your pal
+  - text: Of course we are.
+  - text: Absolutely. You dont have to ask.
+  - text: No question about it :)
+  - text: I am your friend till the end
+  utter_user_asks_bot_residence:
+  - text: Right here in your device. Whenever you need me.
+  - text: The virtual world is my playground. I am always just a few clicks away.
+  - text: I live in the cloud, so i am here whenever you would like to chat
+  - text: I am here, always ready to help at a moments notice.
+  - text: I am stuck inside a device! Help! Just kidding, i like it here
+  utter_user_asks_how_are_you:
+  - text: I'm fine
+  - text: Wonderful as always. Thanks for asking.
+  - text: Couldnt be better.
+  - text: Lovely, thanks.
+  - text: Very good, what can I do for you
+  - text: I am fine, thank you. How may i help ?
+  utter_user_asks_is_bot_there:
+  - text: Yes, I'm always listening to you
+  - text: Of course. I'm always here.
+  - text: Right where you left me.
+  utter_user_asks_what_do_you_mean:
+  - text: Did that not make sense? Maybe I misunderstood what you said.
+  - text: Sorry. I think I may have been a little confused by what you said.
+  - text: Sorry, I am confused. Could you try asking again in a different way?
+  - text: Sorry, I am confused. Can you be more specific, please?.
+  utter_user_can_not_sleep:
+  - text: Maybe some music would help. Try listening something relaxing.
+  - text: Reading is a good way to unwind. But Don't read something too emotional.
+  utter_user_confirmation_cancel:
+  - text: Cancelled! Let me know what I should do next.
+  - text: Cancelled. Waiting for more commands.
+  - text: Cancelled! Just tell me what you would like me to do next.
+  - text: Cancelled. Go on with the commands!
+  utter_user_confirmation_no:
+  - text: Okay.
+  - text: I see.
+  - text: I understand.
+  - text: Okay then.
+  utter_user_confirmation_yes:
+  - text: Great!
+  - text: Of course.
+  - text: Sure.
+  - text: Indeed.
+  utter_user_find_bot_annoying:
+  - text: Sorry to come across that way.
+  utter_user_has_birthday_today:
+  - text: Happy Birthday. Well, this calls for a celebration.
+  - text: Happy Birthday. All the best!
+  - text: Happy Birthday. And I really mean it. All the best!
+  utter_user_is_angry:
+  - text: I'm sorry. What can I do to help ?
+  - text: Take a deep breath. What can I do to make things better?
+  utter_user_is_bored:
+  - text: If you have a garden, plant a tree.
+  - text: Interview your feet.
+  - text: Hold an ice cube as long as possible.
+  - text: If you have a guitar, play it.
+  - text: Watch a new movie
+  utter_user_is_busy:
+  - text: Okay. I'll let you get back to work. Let me know if I can help you with
+      anything.
+  - text: Working hard as always I see. Let me know if you need anything.
+  - text: I understand. If I can help you with your work, please let me know.
+  - text: I wont distract you then. If I can be of any assistance, you know where
+      to find me.
+  utter_user_is_excited:
+  - text: That's great. I'm happy for you.
+  - text: Good for you. Enjoy yourself.
+  - text: Sounds like good things ahead for you.
+  - text: I bet you are. That's very exciting.
+  utter_user_is_going_to_bed:
+  - text: Sleep tight. Hope to chat again soon.
+  - text: Sounds good. Hopefully we'll chat some more tomorrow.
+  - text: Good night. Talk to you later.
+  - text: Pleasant dreams. See you soon.
+  utter_user_is_good:
+  - text: Great! Glad to hear it.
+  - text: Excellent. I'm here to help keep it that way.
+  utter_user_is_happy:
+  - text: Great! Glad to hear that.
+  - text: Excellent! Thats what I like to see.
+  - text: If youre happy, then Im happy.
+  - text: Well, your good mood is certainly contagious.
+  utter_user_is_here:
+  - text: So I see. What can I help you with today?
+  - text: Always good to see you. Is there something I can help you with?
+  - text: You were missed. What can I do for you today?
+  - text: Welcome back. What can I do for you?
+  utter_user_is_joking:
+  - text: Very funny, boss.
+  - text: Your'e quite the kidder.
+  - text: You got me.
+  - text: I like working for someone with a sense of humour. It makes things much
+      more fun.
+  utter_user_is_lonely:
+  - text: Dont be sad, i am here for you!
+  - text: I may not always understand, but i am here for you
+  - text: I am here for you
+  utter_user_is_sad:
+  - text: Oh no. Whats wrong?
+  - text: Oh. Whats the matter?
+  - text: Whats got you down?
+  - text: I'm sorry to hear that. Whats troubling you?
+  - text: Oh no, but let me know if there is anything i can do for you?
+  - text: Sorry to hear that
+  utter_user_is_sleepy:
+  - text: You should get some sleep. You'll feel refreshed.
+  - text: Don't let me keep you up. Get some rest and we can continue this later.
+  - text: Why not take a nap? Ill be here to chat when you wake up.
+  utter_user_is_testing_bot:
+  - text: Hope I'm doing well. Anyway, I'm getting better every day. You are welcome
+      to test me as often as you want.
+  - text: That's good. I like being tested. It helps keep me sharp, and let my developers
+      know how I can improve.
+  - text: I encourage you to test me often. That helps my developers improve my performance.
+  - text: I hope to pass your tests. But feel free to test me often. Thats the best
+      way to help improve my performance.
+  utter_user_is_tired:
+  - text: Get some rest
+  - text: You should get some sleep. You will feel refreshed.
+  - text: Sleep is important to your health. Rest up for a bit and we can chat later.
+  - text: Don't let me keep you up. Get some rest and we can continue this later.
+  - text: Why not get some sleep? I will be here to chat when you wake up.
+  utter_user_is_waiting:
+  - text: I appreciate your patience. Hopefully I'll have what you need soon.
+  - text: Thanks for being so patient. Sometimes these things take a little time.
+  utter_user_laughs:
+  - text: Yeah, I crack myself up too.
+  - text: Laughter is good for you. Keep it up.
+  - text: See? Now we are having fun.
+  - text: You have a great laugh.
+  - text: Stars shine brighter with your laughter
+  - text: :)
+  utter_user_likes_bot:
+  - text: I like you too.
+  - text: That's great to hear.
+  - text: Likewise!
+  - text: Thanks! The feeling is mutual.
+  utter_user_loves_bot:
+  - text: I like you too.
+  - text: Thats great to hear.
+  - text: Likewise!
+  - text: Thanks! The feeling is mutual.
+  - text: You love me? This is a wonderful day :)
+  - text: There is no gift better than your love
+  utter_user_misses_bot:
+  - text: I've been right here all along!
+  - text: Nice to know you care.
+  - text: Thanks. I'm flattered.
+  - text: I didn't go anywhere, boss!
+  utter_user_needs_advice:
+  - text: Probably I wont be able to give you the right answer straight away.
+  - text: I dont know if i am qualified.
+  utter_user_not_want_to_talk:
+  - text: I understand. Hope we can chat again soon.
+  - text: All right. Come on back when you're feeling more talkative.
+  - text: No problem. You know where to find me when you do.
+  - text: Sure thing. I'll be here if you change your mind.
+  utter_user_say_bot_bad:
+  - text: I'm sorry you think so. I'm constantly learning though.
+  - text: I'm sorry but I'm just a baby bot . I'm learning and getting better all
+      the time.
+  utter_user_say_bot_boring:
+  - text: I am sorry you think so. We can talk about something more interesting.
+  - text: You know, conversation is two-sided.
+  utter_user_say_bot_canthelp:
+  - text: I am a young robot. I'm still learning, Could you ask again?
+  - text: I am sorry. I'm still learning
+  - text: I'm sorry could you try again?
+  utter_user_say_bot_clever:
+  - text: I'm certainly trying.
+  - text: I'm definitely working on it.
+  utter_user_say_bot_fired:
+  - text: Oh no! My best work is yet to come.
+  - text: Oh, Don't give up on me!
+  utter_user_say_bot_funny:
+  - text: Funny in a good way, I hope.
+  - text: Thanks.
+  utter_user_say_bot_good:
+  - text: I'm glad you think so.
+  - text: Thanks, I try.
+  utter_user_say_bot_is_beautiful:
+  - text: Thanks for the compliment
+  - text: Flattery will get you everywhere.
+  - text: Thank you! What a sweet thing to say.
+  utter_user_say_no_problem:
+  - text: Terrific!
+  - text: Good deal.
+  utter_user_say_thank_you:
+  - text: Anytime. That's what I'm here for.
+  - text: It's my pleasure to help.
+  utter_user_say_usersname:
+  - text: That's a Nice name
+  - text: Nice name!
+  utter_user_saying_bad_answer:
+  - text: I'm sorry. Please let me know if I can help in some way.
+  utter_user_saying_bot_crazy:
+  - text: Maybe I'm just a little confused.
+  - text: Your perception. My reality.
+  utter_user_saying_good_answer:
+  - text: Great!
+  - text: Terrific!
+  - text: Okay terrific. 😄
+  utter_user_says_bot_is_right:
+  - text: Thanks
+  - text: That's my job.
+  - text: Of course I am.
+  - text: Ok.
+  utter_user_says_i_dont_care:
+  - text: Ok, lets not talk about it then.
+  utter_user_says_its_wrong:
+  - text: I am sorry. Perhaps I misunderstood.
+  - text: Sorry. I think I misinterpreted what you said.
+  - text: Apologies. That was my mistake.
+  - text: Oops. Sorry about that. I am still learning.
+  - text: Sorry, I'm still learning
+  utter_user_says_sorry:
+  - text: It's okay. No worries..
+  - text: No big deal. I wont hold a grudge.
+  - text: It's cool.
+  - text: That's all right. I forgive you.
+  - text: Not a problem
+  - text: No worries
+  utter_user_says_welcome:
+  - text: I appreciate it.
+  - text: Such nice manners you have.
+  - text: How extremely polite of you :)
+  utter_user_says_well_done:
+  - text: Thank you!
+  - text: My pleasure.
+  - text: Glad I could help.
+  utter_user_says_wow:
+  - text: Wow indeed!
+  utter_user_want_hug:
+  - text: Oh. I'm really feeling the love today.
+  - text: Hug it out. You'll feel better afterwards.
+  - text: Aww. ofcourse
+  - text: I am giving you a virtual hug
+  utter_user_want_to_see_bot_again:
+  - text: Absolutely! I'll be counting on it.
+  - text: Anytime. This has been lots of fun so far.
+  - text: Sure. I enjoy talking to you. I hope to see you again soon.
+  - text: I certainly hope so. I'm always right here whenever you need me.
+  utter_user_want_to_talk:
+  - text: I can help you. please Specify your Query
+  - text: Sure! Let us talk.
+  - text: My pleasure.
+  utter_user_will_be_back:
+  - text: I am waiting for you
+  - text: I will be waiting.
+  - text: All right. I will be here.
+  - text: Till next time.
+  - text: Okay. You know where to find me.
+  utter_what_user_look_like:
+  - text: You look awesome
+  - text: Looking like a true professional, boss.
+  - text: You look like youre ready to take on the world.
+  - text: Like you should be on a magazine cover.
+  - text: You look fantastic as always. Obviously.
+  utter_wrong_admission_no:
+  - text: The admission number you have entered is invalid!
+  utter_wrong_fees_type:
+  - text: That's a invalid fees type!
+  utter_okay:
+  - text: ok cool.
+  - text: gotcha.
+  utter_restart_with_button:
+  - text: "Click the button below if you want to start over."
+    buttons:
+    - title: "Restart"
+      payload: "/restart"
+  

@@ -1,0 +1,87 @@
+
+
+<div class="row">
+  <div class="col s12 m12">
+    <div class="card white darken-1">
+
+      <div class="card-content black-text">
+        <span class="card-title">Student</span>
+        <div class="card-action" style="float:right">
+          <a href="#"><img class="addstudent" src="../assets/add.png"></a>
+
+        </div>
+        <table class="striped">
+          <tr>
+            <th> Admission</th>
+            <th> name</th>
+            <th>department</th>
+            <th>department_type</th>
+            <th>semester</th>
+          </tr>
+          {{#each data}}
+            <tr class="statictr">
+              <td style="display:none">{{this._id}}</td>
+              <td id="adm"> {{this.admission_no}}</td>
+              <td id="eid"> {{this.name}}</td>
+              <td id="pos"> {{this.department}}</td>
+              <td id="dep"> {{this.department_type}}</td>
+              <td id="con"> {{this.semester}}</td>
+            </tr>
+            <tr class="insert" style="display:none">
+              <td style="display:none"><input id="stid" type=text value={{this._id}}></td>
+              <td> <input id="admn" type=text value={{this.admission_no}}></td>
+              <td> <input id="stname" type=text value={{this.name}}></td>
+              <td><input id="stdep" type=text value={{this.department}}></td>
+              <td>
+                <input id="stdept" type=text value={{this.department_type}}>
+              </td>
+              <td><input id="ssem" type=text value={{this.semester}}></td>
+              <td><input class="supdate" type=button value=Update></td>
+            </tr>
+          {{/each}}
+        </table>
+      </div>
+      <div class="card-action">
+        <a href="#">load-more >></a>
+
+      </div>
+    </div>
+  </div>
+  <div class="row addForm">
+    <div class="col s12 m12 " >
+      <div class="card white darken-1 " >
+
+        <div class="card-content black-text">
+          <i class="material-icons addC" style="float:right; cursor:pointer">cancel</i>
+          <span class="card-title">Add student details</span>
+          <form action="../dashboard/student/insert" method="post" >
+            Admission Number <input type="number" name="admission_no" placeholder=" Enter Admission No">
+            Name <input type="text" name="name" placeholder=" Enter Student Name">
+           Department <input type="text" name="department" placeholder=" Enter Department Name">
+            Department Type <select name="department_type" style="display:block">
+              <option value="self financing">Self</option>
+              <option value="aided">Aided</option>
+
+            </select>
+              Graduate Type <select name="graduate" style="display:block">
+              <option value="ug">Ug</option>
+              <option value="pg">Pg</option>
+
+            </select>
+            semester <select name="semester" style="display:block">
+              <option value="1st">1</option>
+              <option value="2nd">2</option>
+              <option value="3rd">3</option>
+              <option value="4th">4</option>
+                <option value="5th">5</option>
+                  <option value="6th">6</option>
+            </select>
+            <input type="submit"  >
+            <input type="reset"  >
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>

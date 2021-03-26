@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dashboard ! Welcome</title>
+  <link rel="stylesheet" type="text/css" href="../css/dash.css"/>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script
+			  src="https://code.jquery.com/jquery-3.3.1.min.js"
+			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			  crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="navbar">
+   <div class="logo">
+     <img src="../assets/bot.jpeg" alt="logo" style="width:50px; height:50px; border-radius:180px;"/>
+      <h2>Benji Admin </h2>
+   </div>
+   <div class="profile">
+     <img src="../assets/man.png" alt="logo"/>
+      <div class="profile-data">
+        <ul>
+
+          <li><a href="../logout"><i class="material-icons">power_settings_new</i><p>Log Out</p> </a></li>
+        </ul>
+      </div>
+   </div>
+   </div><div class="maincontain">
+   <div class="sidebar">
+    <div class="s-item " >
+    <a href="../dashboard/employee">  <img src="../assets/user.png"  style="width:30px;height:30px"><h2>Employee</h2></a>
+
+        </div>
+        <div class="s-item s-item2">
+        <a href="../dashboard/student">  <img src="../assets/student.png"  style="width:30px;height:30px"> <h2>Student</h2></a>
+
+        </div>
+        <div class="s-item s-item3" style="cursor:pointer">
+          <img src="../assets/payment.png"  style="width:30px;height:30px; "><h2>Payment</h2>
+          <ul>
+              <a href="../dashboard/fees"><li>Fees Amount</li></a>
+            <a href="../dashboard/fine"><li>Fine Amount</li></a>
+            <a href="../dashboard/payment"><li>Payment Details</li></a>
+
+          </ul>
+        </div >
+        <div class="s-item s-item4">
+          <a href="../dashboard/complaint"><img src="../assets/complaint.png" style="width:30px;height:30px"><h2>Complaint</h2>
+</a>
+        </div>
+   </div>
+   <div class="container1">
+{{{body}}}
+   </div>
+   </div>
+</body>
+
+  <script src="../js/dash.js" defer="defer"></script>
+</html>
